@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2041
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transilien", "Transilien\Transilien.csproj", "{B39A96E3-B06B-4843-A72F-DCE123EB834B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B39A96E3-B06B-4843-A72F-DCE123EB834B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B39A96E3-B06B-4843-A72F-DCE123EB834B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B39A96E3-B06B-4843-A72F-DCE123EB834B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B39A96E3-B06B-4843-A72F-DCE123EB834B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3D61CB11-140F-4AA0-8A0B-87AB2400FEA2}
+	EndGlobalSection
+EndGlobal
