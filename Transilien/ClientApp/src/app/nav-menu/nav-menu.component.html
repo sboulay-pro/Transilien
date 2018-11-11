@@ -1,1 +1,100 @@
-header!!!
+<style>
+
+  .main-nav {
+    background-color: white;
+    top: 36px;
+    height: 68px;
+  }
+
+  .nav-logo {
+    padding-left: 16px;
+    padding-top: 10px;
+    display: inline-block;
+    
+  }
+
+  .nav-right-part {
+    display: flex;
+    float: right;
+    
+    justify-content: flex-end;
+    background-color: cornflowerblue;
+  }
+
+  .col {
+    display: inline-block;
+    height: 100%;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 20px;
+    padding-left: 25px;
+    font-size: 1.1em;
+    color: #3e3e40;
+    font-family: Avenir,Arial,Helvetica,sans-serif;
+    
+  }
+
+
+  .col-2 {
+    background-color: darkgrey;
+  }
+
+  .col-3 {
+    background-color: orange;
+  }
+
+  .col-4 {
+    background-color: cornflowerblue;
+  }
+
+  .col-5 {
+    background-color: burlywood;
+  }
+
+
+
+
+  @media only screen and (min-width: 760px) and (max-width: 1400px) {
+
+    .nav-logo {
+      background-color: mediumvioletred;
+      width: 35%;
+    }
+
+    .nav-right-part {
+      width: 65%
+    }
+  }
+
+
+  @media only screen and (max-width: 760px) {
+
+    
+    .main-nav  {
+      display: none;
+    }
+  }
+
+
+</style>
+
+<nav class="main-nav navbar navbar-fixed-top">
+  <div class="nav-logo ">
+    <img src="../../assets/logo-nav.png" />
+  </div>
+  <div class="nav-right-part">
+    <div class="col col-2">
+      Se déplacer &amp; visiter >
+    </div>
+    <div class="col col-3">
+      Tarifs &amp; forfait >
+    </div>
+    <div class="col col-4">
+      Services &amp; réseaux sociaux >
+    </div>
+    <div class="col col-5">
+      <img src="../../assets/Avatar.png" />
+      <span>Mon compte</span>
+    </div>
+  </div>
+</nav>
